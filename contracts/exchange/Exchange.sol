@@ -76,9 +76,5 @@ contract Exchange {
         );
         _;
     }
-function naam(string memory name) returns(string memory) {
-    return name;
-    }
-
     receive() external payable {}
 }
